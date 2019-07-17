@@ -8,6 +8,12 @@ body {
   margin-top: 0px;
 }
 
+.Ourvision {
+  background-color: #ffebee;
+  color: black !important;
+
+}
+
 .container {
   width: 980px;
   margin: 0 auto;
@@ -111,7 +117,8 @@ ul.top_menu {
 .banner {
   margin-top: 20px;
 }
-th{
+
+th {
   width: 150px;
   height: 7rem;
 }
@@ -125,8 +132,18 @@ th{
   color: black;
 
 }
-.button{
+
+.button:hover {
+  background-color: rgb(224, 242, 250);
+}
+
+.button {
   margin-left: 30%;
+  background-color: skyblue;
+  height: 40px;
+  width: 50px;
+
+
 }
 
 
@@ -138,7 +155,7 @@ th{
   width: 480px;
   color: black;
   margin-top: 5%;
-  
+
 
 }
 
@@ -152,10 +169,13 @@ form {
   position: relative;
   bottom: 12rem;
 }
-input[type='text'],textarea{
-  width:480px;
+
+input[type='text'],
+textarea {
+  width: 480px;
 }
-input{
+
+input {
   margin-left: 2rem;
 }
 
